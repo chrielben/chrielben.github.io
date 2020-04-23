@@ -8,7 +8,7 @@
                 cPass=window.prompt("Please type the password","")
                 if (cPass!=cAnswer){
                     history.go(-1)
-                }
+                } else {location.replace('index.html')}
 
             }
         </script>
@@ -16,6 +16,5 @@
     </head>
 
     <body onload=PassWord()>
-        <a href="index.html">Enter</a>
     </body>
 </html>
