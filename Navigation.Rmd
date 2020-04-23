@@ -22,7 +22,8 @@ df = tibble(Project = character(length(filelist)),
             'Required departments' = character(length(filelist)),
             'Expected cost' = character(length(filelist)),
             'Projected approved by' = character(length(filelist)),
-            'Budget approved by' = character(length(filelist))
+            'Budget approved by' = character(length(filelist)),
+            url = character(length(filelist))
             )
 
 for (i in 1:length(filelist)) {
@@ -55,9 +56,11 @@ for (i in 1:length(filelist)) {
   df$`Budget approved by`[i] =    str_remove(xml_child(xml_child(xml_child(data, 2), 2), 10) %>% 
                                   html_text() %>% 
                                   str_remove_all(pattern = "\nArticle\\s[0-9]"), "Budget approved by ")
+  
+  df$url[i] = paste0('"<a href="', filelist[i], '">', str_remove(str_remove(df$Project[i],"\n\n\n\n"),"\n\n"),"</a>")
 }
-df %>%
-  filter(df$`Project Status` != "Completed") %>%
+df[1:7] %>%
+  filter(df$`Project Status` != "\n  Completed\n") %>%
   kable() %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
