@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+        <script language="javascript">
+            function PassWord(){
+
+                cAnswer="mantra"
+                cPass=window.prompt("Please type the password","")
+                if (cPass!=cAnswer){
+                    history.go(-1)
+                }
+
+            }
+        </script>
+
+    </head>
+
+    <body onload=PassWord()>
+        <a>href="index.html">Enter</a>
+    </body>
+</html>
