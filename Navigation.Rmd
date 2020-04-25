@@ -29,9 +29,7 @@ df = tibble(Project = character(length(filelist)),
 for (i in 1:length(filelist)) {
   data = read_html(filelist[i])
   #fill the df
-  df$Project[i] = xml_child(xml_child(xml_child(data, 2), 2), 3) %>% 
-                                   html_text() %>% 
-                                   str_remove_all(pattern = "\nArticle\\s[0-9]")
+  df$Project[i] = paste0("[", str_remove(str_remove(str_remove(html_text(xml_child(xml_child(xml_child(data, 2), 2), 3)),pattern = "\nArticle\\s[0-9]"),pattern = "\n\n\n\n"),pattern = "\n\n"), "](", filelist[i], ")")
     
   df$`Required departments`[i] =  str_remove(xml_child(xml_child(xml_child(data, 2), 2), 6) %>% 
                                   html_text() %>% 
