@@ -1,5 +1,5 @@
 ---
-title: "NAV: Payment Management"
+title: "NAV: Expense Management"
 output: html_document
 ---
 <head>
@@ -37,7 +37,7 @@ font-style: ;
 </style>
 
 <p class="comment">
-<b> Required departments </b> Internal: IT, Global Finance; External: Loucon
+<b> Required departments </b> Internal: Global Finance, IT; External: Loucon
 </p>
 
 <p class="comment">
@@ -53,7 +53,7 @@ font-style: ;
 </p>
 
 <p class="comment">
-<b> Budget approved by </b> Not Approved
+<b> Budget approved by </b> Karsten Ehlig Petersen
 </p>
 
 <p class="comment">

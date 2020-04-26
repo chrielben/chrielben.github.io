@@ -37,7 +37,7 @@ font-style: ;
 </style>
 
 <p class="comment">
-<b> Required departments </b> Internal: IT, Global Finance; External: Loucon
+<b> Required departments </b> Internal: IT, Global Finance
 </p>
 
 <p class="comment">
@@ -49,7 +49,7 @@ font-style: ;
 </p>
 
 <p class="comment">
-<b> Priority </b> Low
+<b> Priority </b> TBD
 </p>
 
 <p class="comment">
