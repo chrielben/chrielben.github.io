@@ -1,0 +1,86 @@
+---
+title: "Workflow: optimize payroll workflow in UAE and Hong Kong"
+output: html_document
+---
+<head>
+<script language = "javascript">
+<!--hide
+var password;
+var pass1="12345";
+password=prompt('Enter Password To View Page',' ');
+if (password==pass1)
+alert ('Correct password, click OK to enter.';
+else
+{window.location="http://www.chrielben.github.io";
+}
+//-->
+</script>
+</head>
+<style>
+p.comment {
+background-color: #f49800;
+padding: 10px;
+border: 1px solid black;
+margin-left: 25px;
+border-radius: 5px;
+font-style: ;
+}
+
+p.status {
+background-color: #f49800;
+padding: 10px;
+border: 1px solid black;
+margin-left: 25px;
+border-radius: 5px;
+font-style: ;
+}
+</style>
+
+<p class="comment">
+<b> Required departments </b> Internal: IT, Global Finance; External: Loucon
+</p>
+
+<p class="comment">
+<b> Project approved by </b> Not approved
+</p>
+
+<p class="comment">
+<b> Expected cost </b> TBD
+</p>
+
+<p class="comment">
+<b> Priority </b> Low
+</p>
+
+<p class="comment">
+<b> Budget approved by </b> Not Approved
+</p>
+
+<p class="comment">
+<b> Project Status </b> Not initiated
+</p>
+
+<p class="comment">
+<b> Project Description </b>
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+
+<p class="comment">
+<b> Project Goal </b>
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>
+
+<p class="status">
+<b>20-04-2020</b>
+Procedure guidelines were e-mailed to Danja and the task of clearing open payments without bank fees are now completely handled by her in MENA and APAC, while open payments with bank fees continues to be handled by the regions accounts responsible employee. Accounts continue to handle clearing of payments when a remittance advice has been provided prior to the posting of the payment. Danja is furthermore responsible for clearing offsetting invoices and credit notes from now on. 
+</p>
+
+<p class="status">
+<b>21-04-2020</b>
+Jens Ove Henneberg stated that for Danja to be able to handle clearing of payment postings which have been posted incl. bank fees a new role has to be created by a NAV developer (Loucon) for Danja to take over the task.
+</p>
+
+<p class="status">
+<b>21-04-2020</b>
+Status updated to: <i>In queue with IT</i>
+</p>
